@@ -1,0 +1,196 @@
+.img1 {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  opacity: 90%;
+}
+.hd1 {
+  background-color: #24273d;
+  position: absolute;
+  width: 50%;
+  height: 70vh;
+  top: 15%;
+  left: 26%;
+  overflow: scroll;
+  scrollbar-color: rebeccapurple #24273d;
+  overflow-wrap: break-word;
+}
+.head1 {
+  color: #3a177b;
+  text-align: center;
+  font-size: 40px;
+}
+.m {
+  color: #ffffff;
+  background-color: #ffffff;
+}
+.general {
+  display: flex;
+  background-color: transparent;
+  color: #a8a5a5;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3.5%;
+
+  /* padding: 1rem; */
+}
+.divtitle {
+  display: flex;
+  flex-direction: column;
+}
+.add {
+  color: #ffffff;
+  width: 10%;
+  height: 5.7vh;
+  margin-top: 2.4%;
+  border: none;
+  border-radius: 5px;
+  background-color: #3a177b;
+}
+.inp {
+  width: 100%;
+  padding-left: 0.4rem;
+  height: 5vh;
+  border: 2px solid #3a177b;
+  border-radius: 5px;
+  background-color: #181824;
+  color: #a8a5a5;
+}
+.lb {
+  background-color: #24273d;
+}
+#hline {
+  opacity: 40%;
+  width: 90%;
+  margin-left: 5%;
+}
+.todobtn {
+  margin-top: 3.5%;
+  background-color: transparent;
+  margin-left: 3%;
+}
+.isCompleteScreen {
+  border: none;
+  border-radius: 5px;
+  background-color: #181824;
+  color: #ffffff;
+  padding: 1%;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.active {
+  background-color: #3a177b;
+}
+.todo-list {
+  margin-top: 2%;
+  width: 90%;
+  height: 10vh;
+  margin-left: 5%;
+  color: #a8a5a5;
+  margin-bottom: 4%;
+}
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+.headdescrip {
+  margin-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.headdescrip h3 {
+  color: #3a177b;
+}
+.deletecheck {
+  margin-right: 2%;
+  padding-top: 2%;
+  font-size: 28px;
+  color: #a8a5a5;
+  display: flex;
+  gap: 6%;
+  cursor: pointer;
+  align-items: center;
+}
+
+.delete:hover {
+  color: red;
+}
+.check:hover {
+  color: #3a177b;
+}
+.headdescrip p {
+  overflow-wrap: anywhere;
+}
+.hd2 {
+  position: sticky;
+  top: 0;
+  width: 100;
+  height: 10vh;
+  z-index: 999px;
+}
+
+@media (max-width: 430px) {
+  .head1 {
+    font-size: 24px;
+  }
+  .general {
+    flex-direction: column;
+    width: 85%;
+    margin-left: 4%;
+    gap: 10px;
+  }
+  .inp {
+    outline: none;
+  }
+  .add {
+    display: flex;
+    width: 30%;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .deletecheck {
+    font-size: 13px;
+    align-items: center;
+  }
+  .headdescrip h3 {
+    font-size: 16px;
+  }
+  .headdescrip p {
+    font-size: 14px;
+  }
+  .todo-list-item {
+    margin-bottom: 5%;
+  }
+
+  .todo-list {
+    width: 90%;
+    height: 5vh;
+  }
+  .hd1 {
+    width: 50%;
+    height: 58vh;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 940px) {
+  .add {
+    margin-top: 4.5%;
+    width: 20%;
+  }
+  .deletecheck {
+    font-size: 17px;
+  }
+  .general {
+    width: 90%;
+    gap: 5%;
+    margin-left: 5%;
+  }
+  .hd2 {
+    height: 2vh;
+    margin-bottom: 22%;
+  }
+}
