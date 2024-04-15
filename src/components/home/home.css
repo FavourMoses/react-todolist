@@ -130,8 +130,36 @@
   height: 10vh;
   z-index: 999px;
 }
+.edit-wrapper {
+  background-color: #202030;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.edit-wrapper input,
+.edit-wrapper textarea {
+  border: 1px solid #3a177b;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+  color: #a8a5a5;
+}
+.edit-wrapper .add {
+  margin-left: 89%;
+}
 
 @media (max-width: 430px) {
+  .edit-wrapper .add {
+    position: absolute;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 47%;
+    right: 15%;
+  }
+
+  .edit-wrapper {
+    padding-bottom: 23%;
+  }
   .head1 {
     font-size: 24px;
   }
@@ -192,5 +220,8 @@
   .hd2 {
     height: 2vh;
     margin-bottom: 22%;
+  }
+  .edit-wrapper .add {
+    margin-left: 78%;
   }
 }

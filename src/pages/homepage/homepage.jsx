@@ -1,9 +1,9 @@
-import Home from '../../components/home/home';
+import Hom from '../../components/home/hom';
 import './homepage.css'
 const Homepage = () => {
     return ( 
         <div>
-           <Home/> 
+           <Hom/> 
         </div>
      );
 }

@@ -3,6 +3,7 @@
   width: 90%;
   margin-left: 5%;
   line-height: 30px;
+  padding-top: 4.6%;
 }
 .aboutdiv h4 {
   color: #100622;
@@ -15,16 +16,14 @@
   background-color: #24273d;
 }
 
-
 @media (max-width: 430px) {
-    .aboutdiv {
-       line-height: 20px; 
-    }
-    .aboutdiv p {
-        font-size: 13px;
-    }
+  .aboutdiv {
+    line-height: 20px;
+  }
+  .aboutdiv p {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 940px) {
-
 }
